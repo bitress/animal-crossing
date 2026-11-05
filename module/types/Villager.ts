@@ -3,7 +3,7 @@ export interface Villager {
     name:                      string;
     iconImage:                 string;
     photoImage:                string;
-    houseImage:                null | string;
+    houseImage:                string;
     species:                   string;
     gender:                    Gender;
     personality:               Personality;
@@ -118,4 +118,5 @@ export enum VersionAdded {
     The100 = "1.0.0",
     The190 = "1.9.0",
     The200 = "2.0.0",
+    The300 = "3.0.0",
 }
